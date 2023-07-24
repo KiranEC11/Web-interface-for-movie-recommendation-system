@@ -1,0 +1,18 @@
+
+
+{% extends "base.html" %}
+
+{% block page_content %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 offset-md-1">
+
+            <h1>Recommended Movies</h1>
+
+            {{ table|safe }}
+        </div>
+    </div>
+</div>
+
+{% endblock %}
